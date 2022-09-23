@@ -1,0 +1,35 @@
+POST http://localhost:4002/products
+Content-Type: application/json
+
+{
+    "name": "Caneta Bic",
+    "price": 4.35
+}
+
+###
+POST http://localhost:4002/products
+Content-Type: application/json
+
+{
+    "name": "Livro Didático",
+    "price": 39.53
+}
+
+###
+
+GET http://localhost:4002/products
+
+###
+GET http://localhost:4002/product/e74439c2-6aaf-4761-8c3b-9421e043fe45
+
+###
+PUT http://localhost:4002/product/e74439c2-6aaf-4761-8c3b-9421e043fe45
+Content-Type: application/json
+
+{
+    "name": "Livro do Batman - CAPA DURA",
+    "price": 95.17
+}
+
+###
+DELETE http://localhost:4002/product/74930611-97e2-4276-8654-df126c11986a

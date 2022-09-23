@@ -1,0 +1,26 @@
+{
+  "name": "iniciando-nodejs",
+  "version": "1.0.0",
+  "description": "Iniciando o aprendizado com NODEJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chavesleonardo/iniciando-nodejs.git"
+  },
+  "scripts": {
+    "change-monitor" : "nodemon app.js"
+  },
+  "author": "Leonardo Comoretto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chavesleonardo/iniciando-nodejs/issues"
+  },
+  "homepage": "https://github.com/chavesleonardo/iniciando-nodejs#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.20"
+  }
+}
